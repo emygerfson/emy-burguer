@@ -1,8 +1,20 @@
-
+import { CategoryCarousel } from "../../components/CategoryCarousel"
+import { Banner, Conteiner, Content } from "./style"
 export function Home() {
   return (
-    <div>
-      <h1>Welcome to the Home Page</h1>
-    </div>
+    <main>
+      <Banner>
+        <h1>Bem vindo(a)</h1>
+        
+      </Banner>
+      <Conteiner>
+        <Content>
+            <CategoryCarousel/>
+
+            <div> Carrocel Produtos</div>
+        </Content>
+      </Conteiner>
+      
+    </main>
   )
 }

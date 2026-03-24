@@ -42,7 +42,7 @@ export const RightContainer = styled.div`
 
     p{
         color: #fff;
-        margin-top: 20px;
+        margin-top: 10px;
         a{
             color: #9758a6;
             cursor: pointer;
